@@ -211,6 +211,31 @@ export const PROJECTS = [
   },
   {
     id: 9,
+    title: "AI Fashion Product Shoot",
+    subtitle: "AI PRODUCT VISUALIZATION",
+    cover: "/projects/09-ai-fashion-product-shoot/01-front.jpg",
+    description:
+      "AI Fashion Product Shoot is a commercial fashion visualization study showing how a generated model and jacket concept can become a consistent product image set. The project turns a single garment direction into front, back, side, full-body, and detail views without a traditional photoshoot.",
+    context:
+      "The workflow began in Midjourney to generate the model and jacket direction, then used Nano Banana to keep the model, garment, lighting, and styling consistent across multiple product display images.",
+    outcome:
+      "The final set shows how AI can support faster product demonstrations for fashion, branding, and concept testing while still keeping the creative direction coherent and visually controlled.",
+    role: "AI ART DIRECTION / PRODUCT VISUALIZATION",
+    client: "JVISION STUDIO",
+    year: "2026",
+    tools: ["Midjourney", "Nano Banana", "Prompt Design"],
+    images: [
+      "/projects/09-ai-fashion-product-shoot/02-full-body.jpg",
+      "/projects/09-ai-fashion-product-shoot/03-angle.jpg",
+      "/projects/09-ai-fashion-product-shoot/04-side.jpg",
+      "/projects/09-ai-fashion-product-shoot/05-back.jpg",
+      "/projects/09-ai-fashion-product-shoot/06-detail.jpg",
+      "/projects/09-ai-fashion-product-shoot/07-jacket-concept.png",
+      "/projects/09-ai-fashion-product-shoot/08-model-base.png",
+    ],
+  },
+  {
+    id: 10,
     title: "Impossible",
     subtitle: "MOTION / VIDEO",
     cover: "https://img.youtube.com/vi/YbGq2zt8xWk/maxresdefault.jpg",
