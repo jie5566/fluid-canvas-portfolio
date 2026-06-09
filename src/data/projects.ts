@@ -273,7 +273,7 @@ export const PROJECTS = [
       "The final branding piece presents the robot as a human-centered care solution and shows how AI can support the full branding process from concept, story, and storyboard to generated visuals, motion, and final editing.",
     role: "BRAND STRATEGY / AI VIDEO DIRECTION",
     client: "KEMIZARAS",
-    year: "2026",
+    year: "2025",
     tools: ["Figma", "Midjourney", "ChatGPT", "Runway", "CapCut"],
     images: [
       "https://www.youtube.com/watch?v=oV0KBd_mXuA",
