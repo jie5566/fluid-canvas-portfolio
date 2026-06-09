@@ -276,6 +276,7 @@ export const PROJECTS = [
     year: "2026",
     tools: ["Figma", "Midjourney", "ChatGPT", "Runway", "CapCut"],
     images: [
+      "https://www.youtube.com/watch?v=oV0KBd_mXuA",
       "/projects/11-kemizaras-ai-branding-video/02-elderly-user-portrait.png",
       "/projects/11-kemizaras-ai-branding-video/03-caregiver-portrait.png",
       "/projects/11-kemizaras-ai-branding-video/04-caregiver-profile.png",
