@@ -67,7 +67,7 @@ export const PROJECTS = [
     client: "LINKOPING UNIVERSITY",
     year: "2024",
     tools: ["p5.js", "Tone.js", "ml5.js", "JavaScript", "Webcam tracking"],
-    images: ["/projects/03-dandelion-sleep-assistant/01-generative-demo.mov"],
+    images: ["/projects/03-dandelion-sleep-assistant/01-generative-demo.mp4"],
   },
   {
     id: 4,
@@ -195,7 +195,7 @@ export const PROJECTS = [
       "Figma",
     ],
     images: [
-      "/projects/08-sumi-furniture-branding/01-package-motion.mov",
+      "/projects/08-sumi-furniture-branding/01-package-motion.mp4",
       "/projects/08-sumi-furniture-branding/02-box-corner.png",
       "/projects/08-sumi-furniture-branding/03-box-front.png",
       "/projects/08-sumi-furniture-branding/04-box-dieline.jpg",
