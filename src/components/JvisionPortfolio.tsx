@@ -1246,7 +1246,12 @@ export default function JvisionPortfolio() {
                   onClick={(e) => handleProjectSelect(e, project)}
                 />
               </div>
-              <div className="absolute -bottom-8 left-0 right-0 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
+              <div className="absolute left-[calc(100%+1rem)] top-1/2 hidden -translate-y-1/2 sm:block opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
+                <p className="max-w-[14rem] bg-white px-5 py-3 text-center text-[10px] font-medium tracking-[0.25em] text-neutral-900 uppercase shadow-[0_16px_40px_rgba(0,0,0,0.16)]">
+                  {project.title}
+                </p>
+              </div>
+              <div className="absolute -bottom-8 left-0 right-0 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none sm:hidden">
                 <p className="text-[10px] tracking-[0.25em] uppercase">{project.title}</p>
               </div>
             </div>
