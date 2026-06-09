@@ -262,6 +262,33 @@ export const PROJECTS = [
   },
   {
     id: 11,
+    title: "Kemizaras - AI Branding Video",
+    subtitle: "AI BRAND STORYTELLING",
+    cover: "/projects/11-kemizaras-ai-branding-video/01-robot-and-elderly-user.png",
+    description:
+      "Kemizaras is an AI-assisted branding video for an elderly monitoring robot concept. The project turns an early-stage product idea into a warm and trustworthy brand story about safety, care, independence, and connection between elderly users, caregivers, and families.",
+    context:
+      "The brand direction needed to feel supportive rather than cold, trustworthy rather than technical, and simple rather than overwhelming. This guided the tone of voice, visual style, pacing, scene structure, and emotional rhythm of the final video.",
+    outcome:
+      "The final branding piece presents the robot as a human-centered care solution and shows how AI can support the full branding process from concept, story, and storyboard to generated visuals, motion, and final editing.",
+    role: "BRAND STRATEGY / AI VIDEO DIRECTION",
+    client: "KEMIZARAS",
+    year: "2026",
+    tools: ["Figma", "Midjourney", "ChatGPT", "Runway", "CapCut"],
+    images: [
+      "/projects/11-kemizaras-ai-branding-video/02-elderly-user-portrait.png",
+      "/projects/11-kemizaras-ai-branding-video/03-caregiver-portrait.png",
+      "/projects/11-kemizaras-ai-branding-video/04-caregiver-profile.png",
+      "/projects/11-kemizaras-ai-branding-video/05-caregiver-warm-portrait.png",
+      "/projects/11-kemizaras-ai-branding-video/06-caregiver-direct-portrait.png",
+      "/projects/11-kemizaras-ai-branding-video/07-caregiver-emotional-portrait.png",
+      "/projects/11-kemizaras-ai-branding-video/08-caregiver-side-profile.png",
+      "/projects/11-kemizaras-ai-branding-video/09-caregiver-back-view.png",
+      "/projects/11-kemizaras-ai-branding-video/10-nurse-reference-portrait.png",
+    ],
+  },
+  {
+    id: 12,
     title: "Impossible - Motion Video",
     subtitle: "MOTION / VIDEO",
     cover: "https://img.youtube.com/vi/YbGq2zt8xWk/maxresdefault.jpg",
