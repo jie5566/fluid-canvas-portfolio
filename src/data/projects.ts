@@ -1,7 +1,7 @@
 export const PROJECTS = [
   {
     id: 1,
-    title: "AI Self Branding Film",
+    title: "JVISION - AI Branding Film",
     subtitle: "AI VISUAL STORYTELLING",
     cover: "/projects/01-ai-self-branding-film/cover.jpg",
     description:
@@ -32,7 +32,7 @@ export const PROJECTS = [
   },
   {
     id: 2,
-    title: "Sprudla",
+    title: "Sprudla - Cider Campaign",
     subtitle: "MARKETING STRATEGY",
     cover: "/projects/02-sprudla-apple-cider/cover.jpg",
     description:
@@ -55,7 +55,7 @@ export const PROJECTS = [
   },
   {
     id: 3,
-    title: "Dandelion",
+    title: "Dandelion - Sleep Assistant",
     subtitle: "INTERACTIVE SLEEP ASSISTANT",
     cover: "/projects/03-dandelion-sleep-assistant/cover.jpg",
     description:
@@ -72,7 +72,7 @@ export const PROJECTS = [
   },
   {
     id: 4,
-    title: "Soundscape",
+    title: "Soundscape - Magazine Design",
     subtitle: "MAGAZINE DESIGN",
     cover: "/projects/04-soundscape-magazine/cover.jpg",
     description:
@@ -96,7 +96,7 @@ export const PROJECTS = [
   },
   {
     id: 5,
-    title: "Deep in Blue",
+    title: "Deep in Blue - Exhibition Campaign",
     subtitle: "EXHIBITION CAMPAIGN",
     cover: "/projects/05-deep-in-blue/cover.jpg",
     description:
@@ -129,7 +129,7 @@ export const PROJECTS = [
   },
   {
     id: 6,
-    title: "Nortint Dry Gin",
+    title: "Nortint Dry Gin - Visual Identity",
     subtitle: "VISUAL IDENTITY",
     cover: "/projects/06-nortint-dry-gin/cover.jpg",
     description:
@@ -152,7 +152,7 @@ export const PROJECTS = [
   },
   {
     id: 7,
-    title: "Ethereal Beauty",
+    title: "Ethereal Beauty - Artist Book",
     subtitle: "ARTIST BOOK DESIGN",
     cover: "/projects/07-ethereal-beauty-book/cover.jpg",
     description:
@@ -172,7 +172,7 @@ export const PROJECTS = [
   },
   {
     id: 8,
-    title: "SUMI",
+    title: "SUMI - Furniture Branding",
     subtitle: "FURNITURE BRANDING",
     cover: "/projects/08-sumi-furniture-branding/cover.png",
     description:
@@ -236,7 +236,7 @@ export const PROJECTS = [
   },
   {
     id: 10,
-    title: "Impossible",
+    title: "Impossible - Motion Video",
     subtitle: "MOTION / VIDEO",
     cover: "https://img.youtube.com/vi/YbGq2zt8xWk/maxresdefault.jpg",
     description:
