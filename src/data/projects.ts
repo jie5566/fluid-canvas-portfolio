@@ -236,6 +236,32 @@ export const PROJECTS = [
   },
   {
     id: 10,
+    title: "Scandinavian Fashion Prompt Study",
+    subtitle: "AI STYLE TRANSLATION",
+    cover: "/projects/10-scandinavian-fashion-prompt-study/01-black-tshirt-female-model.png",
+    description:
+      "Scandinavian Fashion Prompt Study explores how a recognizable fashion mood can be translated into a simple, reusable Midjourney prompt system. The project focuses on Acne Studios-inspired styling: clean studio lighting, minimal backgrounds, sharp model casting, oversized silhouettes, muted tones, and controlled editorial attitude.",
+    context:
+      "The goal was not to copy one exact campaign, but to study the visual language behind the style and turn it into a flexible prompt structure. With small changes to garment type, color, model, and pose, the same prompt logic can produce a consistent fashion mood across many looks.",
+    outcome:
+      "The final image set works as a reusable AI moodboard system for fashion direction, campaign exploration, model casting, and early visual testing. It shows how simple prompts can carry a specific brand-like feeling into broader commercial use.",
+    role: "AI ART DIRECTION / PROMPT SYSTEM",
+    client: "JVISION STUDIO",
+    year: "2026",
+    tools: ["Midjourney", "Prompt Design", "Fashion Research"],
+    images: [
+      "/projects/10-scandinavian-fashion-prompt-study/02-black-tshirt-green-pants.png",
+      "/projects/10-scandinavian-fashion-prompt-study/03-black-jacket-portrait.png",
+      "/projects/10-scandinavian-fashion-prompt-study/04-white-fashion-dress.png",
+      "/projects/10-scandinavian-fashion-prompt-study/05-pink-dress.png",
+      "/projects/10-scandinavian-fashion-prompt-study/06-blue-shorts-male-model.png",
+      "/projects/10-scandinavian-fashion-prompt-study/07-blue-green-jacket.png",
+      "/projects/10-scandinavian-fashion-prompt-study/08-pink-tshirt-black-pants.png",
+      "/projects/10-scandinavian-fashion-prompt-study/09-purple-shirt-editorial.png",
+    ],
+  },
+  {
+    id: 11,
     title: "Impossible - Motion Video",
     subtitle: "MOTION / VIDEO",
     cover: "https://img.youtube.com/vi/YbGq2zt8xWk/maxresdefault.jpg",
