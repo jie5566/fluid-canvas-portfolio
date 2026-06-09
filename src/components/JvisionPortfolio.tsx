@@ -547,13 +547,23 @@ const DetailMedia = ({ media, title, index }) => {
 
   if (media.type === 'youtube') {
     return (
-      <iframe
-        src={media.embedUrl}
-        title={`${title} video ${index + 1}`}
-        allow="autoplay; encrypted-media; picture-in-picture"
-        allowFullScreen
-        className="w-full h-full bg-black"
-      />
+      <div className="relative w-[min(92vw,1200px)] aspect-video bg-black shadow-[0_30px_90px_rgba(0,0,0,0.45)]">
+        <iframe
+          src={media.embedUrl}
+          title={`${title} video ${index + 1}`}
+          allow="autoplay; encrypted-media; picture-in-picture"
+          allowFullScreen
+          className="absolute inset-0 h-full w-full bg-black"
+        />
+        <a
+          href={media.url}
+          target="_blank"
+          rel="noreferrer"
+          className="absolute bottom-4 right-4 z-10 bg-white px-4 py-2 text-[10px] font-medium tracking-[0.25em] text-black uppercase transition-opacity hover:opacity-70"
+        >
+          Watch on YouTube
+        </a>
+      </div>
     );
   }
 
