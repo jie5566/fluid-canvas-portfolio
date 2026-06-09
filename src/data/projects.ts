@@ -22,6 +22,7 @@ export const PROJECTS = [
       "Suno",
     ],
     images: [
+      "https://www.youtube.com/watch?v=XfJ7kWYxX4E&t=5s",
       "/projects/01-ai-self-branding-film/01-extended-portrait.jpg",
       "/projects/01-ai-self-branding-film/02-line-flow.jpg",
       "/projects/01-ai-self-branding-film/03-grey-field.jpg",

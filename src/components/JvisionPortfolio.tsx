@@ -501,7 +501,15 @@ const PROJECTS = REAL_PROJECTS;
 
 const getYouTubeEmbedUrl = (url) => {
   const match = String(url).match(/(?:youtube\.com\/watch\?v=|youtube\.com\/embed\/|youtu\.be\/)([^?&/]+)/);
-  return match ? `https://www.youtube.com/embed/${match[1]}?controls=1&modestbranding=1&rel=0&playsinline=1` : null;
+  if (!match) return null;
+
+  const timeMatch = String(url).match(/[?&]t=(?:(\d+)m)?(\d+)s?|[?&]start=(\d+)/);
+  const start = timeMatch
+    ? Number(timeMatch[3] || 0) + Number(timeMatch[1] || 0) * 60 + Number(timeMatch[2] || 0)
+    : 0;
+  const startParam = start > 0 ? `&start=${start}` : '';
+
+  return `https://www.youtube.com/embed/${match[1]}?controls=1&modestbranding=1&rel=0&playsinline=1${startParam}`;
 };
 
 const getMediaType = (url) => {
