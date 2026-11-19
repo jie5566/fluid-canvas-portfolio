@@ -9,12 +9,13 @@ export const PROJECTS = [
     context:
       "Each frame is built as a framed panel with the edges of the next panel peeking in, so the cord visibly continues across the swipe. The cord is the only colour in the series, so it does the work of a line of sight: it pulls attention sideways, sets the pace and links products of very different shapes into one story, while the calm grey studio space keeps to Transparent's visual requirements.",
     outcome:
-      "Published by Transparent in November 2026. The frames here follow the same order as the published carousel.",
+      "Published by Transparent in November 2026. The first item here plays the carousel in a phone frame, the way it is meant to be seen: swipe by swipe, the cord carries on from one frame into the next. The single frames follow in the published order.",
     role: "ART DIRECTION / SOCIAL CONTENT DESIGN",
     client: "TRANSPARENT",
     year: "2026",
     tools: [],
     images: [
+      "/projects/14-transparent-blue-cord-carousel/00-phone-carousel.mp4",
       "/projects/14-transparent-blue-cord-carousel/01-portable-speaker-side.jpg",
       "/projects/14-transparent-blue-cord-carousel/02-portable-speaker-front.jpg",
       "/projects/14-transparent-blue-cord-carousel/03-acoustic-sculpture.jpg",
