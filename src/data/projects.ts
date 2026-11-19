@@ -1,5 +1,29 @@
 export const PROJECTS = [
   {
+    id: 14,
+    title: "Transparent - Blue Cord Carousel",
+    subtitle: "SOCIAL CAROUSEL / ART DIRECTION",
+    cover: "/projects/14-transparent-blue-cord-carousel/02-portable-speaker-front.jpg",
+    description:
+      "A six-frame Instagram carousel for Transparent that walks the viewer through the product family: portable speaker, Acoustic Sculpture, turntable and speaker, ending on the turntable on its stand. A single blue cord runs through every frame and guides the eye from one product to the next.",
+    context:
+      "Each frame is built as a framed panel with the edges of the next panel peeking in, so the cord visibly continues across the swipe. The cord is the only colour in the series, so it does the work of a line of sight: it pulls attention sideways, sets the pace and links products of very different shapes into one story, while the calm grey studio space keeps to Transparent's visual requirements.",
+    outcome:
+      "Published by Transparent in November 2026. The frames here follow the same order as the published carousel.",
+    role: "ART DIRECTION / SOCIAL CONTENT DESIGN",
+    client: "TRANSPARENT",
+    year: "2026",
+    tools: [],
+    images: [
+      "/projects/14-transparent-blue-cord-carousel/01-portable-speaker-side.jpg",
+      "/projects/14-transparent-blue-cord-carousel/02-portable-speaker-front.jpg",
+      "/projects/14-transparent-blue-cord-carousel/03-acoustic-sculpture.jpg",
+      "/projects/14-transparent-blue-cord-carousel/04-turntable-side.jpg",
+      "/projects/14-transparent-blue-cord-carousel/05-speaker-back.jpg",
+      "/projects/14-transparent-blue-cord-carousel/06-turntable-on-stand.jpg",
+    ],
+  },
+  {
     id: 13,
     title: "Transparent - AI Product Visuals",
     subtitle: "AI PRODUCT VISUALIZATION",

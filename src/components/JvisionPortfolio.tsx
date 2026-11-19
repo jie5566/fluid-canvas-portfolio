@@ -1081,10 +1081,12 @@ const DetailView = ({ project, onClose }) => {
               <p className="text-[10px] tracking-[0.25em] opacity-50 uppercase">Year</p>
               <p className="text-sm mt-2">{project.year}</p>
             </div>
-            <div>
-              <p className="text-[10px] tracking-[0.25em] opacity-50 uppercase">Tools</p>
-              <p className="text-sm mt-2">{project.tools?.join(' / ')}</p>
-            </div>
+            {project.tools?.length > 0 && (
+              <div>
+                <p className="text-[10px] tracking-[0.25em] opacity-50 uppercase">Tools</p>
+                <p className="text-sm mt-2">{project.tools.join(' / ')}</p>
+              </div>
+            )}
           </div>
         </div>
       </div>
