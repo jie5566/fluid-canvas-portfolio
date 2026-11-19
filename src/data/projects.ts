@@ -1,5 +1,29 @@
 export const PROJECTS = [
   {
+    id: 13,
+    title: "Transparent - AI Product Visuals",
+    subtitle: "AI PRODUCT VISUALIZATION",
+    cover: "/projects/13-transparent-ai-product-visuals/01-turntable-stand-ribbed-glass.jpg",
+    description:
+      "Product-accurate imagery for Transparent, a design-led Stockholm audio brand making modular speakers and turntables. New scenes, new angles and design changes, made without a photoshoot or set building, and now live on the brand's Instagram and website.",
+    context:
+      "Every image had to show the real product exactly and match the brand's calm, material-driven tone, and the whole team reviewing the work are designers. I built my own AI agent holding the brand context, product facts and tone, started every image from real product photos, generated and edited with Midjourney, Nano Banana and ChatGPT image, then finished the details by hand in Adobe wherever AI drifts. Only flawless images were kept.",
+    outcome:
+      "The first on-brand product image was ready in 2 days, against an estimated 2-3 weeks and tens of thousands of SEK for a traditional shoot. The images were approved by the design team and published. The last pair shows the brand's modular promise as an upgrade: one cartridge swapped, the rest of the turntable stays.",
+    role: "AI ART DIRECTION / PRODUCT VISUALIZATION",
+    client: "TRANSPARENT",
+    year: "2026",
+    tools: ["Custom AI agent", "Midjourney", "Nano Banana", "ChatGPT image", "Photoshop"],
+    images: [
+      "/projects/13-transparent-ai-product-visuals/01-turntable-stand-ribbed-glass.jpg",
+      "/projects/13-transparent-ai-product-visuals/02-cartridge-closeup.jpg",
+      "/projects/13-transparent-ai-product-visuals/03-acoustic-sculpture-drivers.jpg",
+      "/projects/13-transparent-ai-product-visuals/04-brutalist-speaker-light-beam.jpg",
+      "/projects/13-transparent-ai-product-visuals/05-upgrade-before.jpg",
+      "/projects/13-transparent-ai-product-visuals/06-upgrade-after.jpg",
+    ],
+  },
+  {
     id: 1,
     title: "JVISION - AI Branding Film",
     subtitle: "AI VISUAL STORYTELLING",
